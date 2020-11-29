@@ -1,0 +1,83 @@
+.modal{
+    top: '35%';
+  left: '50%';
+  right: 'auto';
+  bottom: 'auto';
+  margin-right: '-50%';
+  width: '60%';
+  transform: 'translate(-40%, -10%)';
+}
+.button{
+    padding:1rem 4rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-family:'Montserrat', sans-serif;
+    background:#25C998;
+    border:none;
+    transition: all 0.5s ease-out;
+}
+.button:hover{
+    cursor: pointer;
+    background: springgreen;
+    transform: scale(1.1);
+}
+.popup{
+    background: cornflowerblue;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 0.1fr 1fr;
+}
+.pop-head{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+.wrap{
+    display:grid;
+    grid-template-columns: 1fr 0.1fr;
+    background: darkblue;
+    color:whitesmoke;
+}
+.fa-times{
+    justify-self: center;
+    align-self: center;
+    font-size: 3rem;
+}
+.fa-times:hover{
+    cursor: pointer;
+}
+.form-wrap{
+    justify-self: center;
+    align-self: center;
+}
+.form{
+    height:10%;
+    width:80%;
+    padding:2rem;
+    margin:1rem;
+    border:none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.login-wrap{
+    display:flex;
+    justify-content: center;
+}
+.login{
+    padding:1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    border:none;
+    border-radius: 10px;
+    background: slateblue;
+    color:whitesmoke;
+    transition:all 0.3s ease-out;
+}
+.login:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: turquoise;
+    color:slateblue;
+}
+.forgot-password{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
